@@ -28,6 +28,7 @@ class IPCam(object):
         self.p = pexpect.spawn(cmd, timeout=None) 
 
         self.p.expect([pexpect.EOF, 'Have a nice day','Error'])
+        print("Reconnecting ...")
         self.stop()
         self.play()
 
