@@ -1,6 +1,6 @@
 # IPCam
 
-Script for playing non-stop RTSP video stream using omxplayer
+Script for playing non-stop RTSP video stream using omxplayer.
 
 ## Requirements
 

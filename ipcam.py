@@ -24,10 +24,6 @@ class IPCam(object):
 
     def play(self):
 
-        print("Width: " + str(self.width))
-        print("Height: " + str(self.height))
-        print("URL: " + str(self.url))
-
         cmd = 'omxplayer --avdict "rtsp_transport:tcp" --win "0 0 ' + str(self.width) +  ' ' + str(self.height) + '" "' + self.url + '"'
         self.p = pexpect.spawn(cmd, timeout=None) 
 
