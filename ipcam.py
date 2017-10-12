@@ -27,7 +27,7 @@ class IPCam(object):
         cmd = 'omxplayer --avdict "rtsp_transport:tcp" --win "0 0 ' + str(self.width) +  ' ' + str(self.height) + '" "' + self.url + '"'
         self.p = pexpect.spawn(cmd, timeout=None) 
 
-        self.p.expect([pexpect.EOF, 'Have a nice day','Error'])
+        self.p.expect([pexpect.EOF, 'have a nice day','Have a nice day','Error','error'])
         print("Reconnecting ...")
         self.stop()
         self.play()
