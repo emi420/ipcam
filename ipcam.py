@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3wq!
 # -*- coding: utf-8 -*-
 
 ''' 
@@ -41,7 +41,7 @@ class IPCam(object):
 
 if __name__ == '__main__':
     
-    if len(sys.argv) > 0:
+    if len(sys.argv) > 1:
         url = sys.argv[1]
         width = 1950
         height = 1100
