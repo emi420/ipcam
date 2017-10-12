@@ -1,4 +1,4 @@
-#!/usr/bin/python3wq!
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 ''' 
